@@ -14,6 +14,7 @@
   position: relative;
 }
 .logo {
+  display: block;
   width: 183px;
   height: 32px;
 }
@@ -78,7 +79,7 @@
 }
 
 .two-columns {
-  max-width: 80%;
+  width: 80%;
   margin: auto;
   display: flex;
   justify-content: space-between;
@@ -116,7 +117,7 @@
 }
 
 .section-title {
-  max-width: 60%;
+  width: 60%;
   margin: 0 auto;
   text-align: center;
   line-height: 1.15em;
@@ -129,7 +130,7 @@
 }
 
 .section-subtitle {
-  max-width: 60%;
+  width: 60%;
   text-align: center;
   line-height: 34px;
   font-size: 24px;
