@@ -1,0 +1,8 @@
+.cards__item {
+    max-width: calc((920px - 200px)/3);
+    box-sizing: border-box;
+}
+
+.cards__item:not(:nth-child(3n)) {
+    margin-right: 100px;
+}
